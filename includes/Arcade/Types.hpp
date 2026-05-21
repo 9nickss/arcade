@@ -1,0 +1,92 @@
+/* ------------------------------------------------------------------------------------ *
+ *                                                                                      *
+ * EPITECH PROJECT - Tue, Mar, 2026                                                     *
+ * Title           - Arcade                                                             *
+ * Description     -                                                                    *
+ *     Types                                                                            *
+ *                                                                                      *
+ * ------------------------------------------------------------------------------------ *
+ *                                                                                      *
+ *       ▄▀▀█▄▄▄▄  ▄▀▀▄▀▀▀▄  ▄▀▀█▀▄    ▄▀▀▀█▀▀▄  ▄▀▀█▄▄▄▄  ▄▀▄▄▄▄   ▄▀▀▄ ▄▄             *
+ *      ▐  ▄▀   ▐ █   █   █ █   █  █  █    █  ▐ ▐  ▄▀   ▐ █ █    ▌ █  █   ▄▀            *
+ *        █▄▄▄▄▄  ▐  █▀▀▀▀  ▐   █  ▐  ▐   █       █▄▄▄▄▄  ▐ █      ▐  █▄▄▄█             *
+ *        █    ▌     █          █        █        █    ▌    █         █   █             *
+ *       ▄▀▄▄▄▄    ▄▀        ▄▀▀▀▀▀▄   ▄▀        ▄▀▄▄▄▄    ▄▀▄▄▄▄▀   ▄▀  ▄▀             *
+ *       █    ▐   █         █       █ █          █    ▐   █     ▐   █   █               *
+ *       ▐        ▐         ▐       ▐ ▐          ▐        ▐         ▐   ▐               *
+ *                                                                                      *
+ * ------------------------------------------------------------------------------------ */
+
+#ifndef ARCADE_TYPES_HPP_
+    #define ARCADE_TYPES_HPP_
+
+#include <string>
+#include <vector>
+
+namespace Arcade {
+
+    // Display cell dimensions (in pixels)
+    static constexpr int CELL_WIDTH = 12;
+    static constexpr int CELL_HEIGHT = 20;
+
+    enum class Key {
+        UP, DOWN, LEFT, RIGHT,
+        ENTER, BACKSPACE, SPACE, ESCAPE,
+        KEY_A, KEY_B, KEY_C, KEY_D, KEY_E, KEY_F, KEY_G,
+        KEY_H, KEY_I, KEY_J, KEY_K, KEY_L, KEY_M, KEY_N,
+        KEY_O, KEY_P, KEY_Q, KEY_R, KEY_S, KEY_T, KEY_U,
+        KEY_V, KEY_W, KEY_X, KEY_Y, KEY_Z,
+        NEXT_LIB, PREV_LIB,
+        NEXT_GAME, PREV_GAME,
+        RESTART, MENU, QUIT,
+        MOUSE_LEFT, MOUSE_RIGHT,
+        NONE
+    };
+
+    enum class Color {
+        BLACK, RED, GREEN, YELLOW,
+        BLUE, MAGENTA, CYAN, WHITE
+    };
+
+    struct Cell {
+        char character;
+        Color fgColor;
+        Color bgColor;
+    };
+
+    struct Text {
+        std::string content;
+        int x;
+        int y;
+        Color color;
+    };
+
+    //struct ClickableArea {
+    //    enum Type { GENERIC, GAME_SELECTION, GRAPHIC_SELECTION };
+    //    
+    //    int x;
+    //    int y;
+    //    int width;
+    //    int height;
+    //    Type type;
+    //    int index;
+    //    Key action;
+    //};
+
+    struct RenderData {
+        int gridWidth;
+        int gridHeight;
+        std::vector<std::vector<Cell>> grid;
+        std::vector<Text> texts;
+        //std::vector<ClickableArea> clickableAreas;
+    };
+
+    struct ScoreEntry {
+        std::string playerName;
+        std::string gameName;
+        int score;
+    };
+
+}
+
+#endif

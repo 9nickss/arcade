@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,arcade_pacman.so -o ../../../lib/arcade_pacman.so CMakeFiles/arcade_pacman.dir/PacmanGame.cpp.o CMakeFiles/arcade_pacman.dir/PacmanMap.cpp.o CMakeFiles/arcade_pacman.dir/PacmanMove.cpp.o 

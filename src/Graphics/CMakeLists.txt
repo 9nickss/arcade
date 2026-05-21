@@ -1,0 +1,22 @@
+find_package(Curses QUIET)
+find_package(SDL2 QUIET)
+find_package(SDL2_ttf QUIET)
+find_package(Qt5 QUIET COMPONENTS Core Gui Widgets)
+
+if (CURSES_FOUND)
+	add_subdirectory(NCurses)
+else()
+	message(WARNING "Curses not found, skipping NCurses module")
+endif()
+
+if (SDL2_FOUND)
+	add_subdirectory(SDL2)
+else()
+	message(WARNING "SDL2 not found, skipping SDL2 module")
+endif()
+
+if (Qt5_FOUND)
+	add_subdirectory(Qt5)
+else()
+	message(WARNING "Qt5 not found, skipping Qt5 module")
+endif()

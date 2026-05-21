@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/arcade.dir/src/main.cpp.o CMakeFiles/arcade.dir/src/Arcade/DLLoader.cpp.o CMakeFiles/arcade.dir/src/Core/Core.cpp.o -o arcade  -ldl 

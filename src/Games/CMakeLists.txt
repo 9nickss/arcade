@@ -1,0 +1,2 @@
+add_subdirectory(SpaceInvaders)
+add_subdirectory(Pacman)

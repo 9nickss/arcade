@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,arcade_space_invaders.so -o ../../../lib/arcade_space_invaders.so CMakeFiles/arcade_space_invaders.dir/SpaceInvadersGame.cpp.o 
