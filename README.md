@@ -4,15 +4,20 @@
 
 Ce projet a été réalisé en collaboration entre les groupes **HumanCentipede** et **gucci gang**.
 
+### Notre groupe
+- Yannick — https://github.com/9nickss
+- Ugo — https://github.com/Noctoa
+- Raphaël — https://github.com/Rofe06
+
 ### HumanCentipede
-- Gabriel — gabriel.spanneut-peressutti@epitech.eu
-- Axel — axel.pescio@epitech.eu
-- Florian — florian.demartini@epitech.eu
+- Gabriel — https://github.com/Rofe06
+- Axel — https://github.com/AfyliX
+- Florian — https://github.com/Creariax5
 
 ### gucci gang
-- Hilal — hilal.tarhan@epitech.eu
-- Ana — ana-belen.correa@epitech.eu
-- Soha — soha.larbi@epitech.eu
+- Hilal — https://github.com/Hilaltrhn
+- Ana — https://github.com/ana-b-c
+- Soha — https://github.com/AyoSoja
 
 ---
 
