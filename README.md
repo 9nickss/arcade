@@ -2,7 +2,7 @@
 
 ## Collaboration
 
-Ce projet a été réalisé en collaboration entre les groupes **HumanCentipede** et **gucci gang**.
+Ce projet a été réalisé en collaboration entre notre groupe les groupes **HumanCentipede** et **gucci gang** pour les interfaces du projet (compatibilité entre les .so de chacun, donc libs et jeux).
 
 ### Notre groupe
 - Yannick — https://github.com/9nickss
