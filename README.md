@@ -1,5 +1,7 @@
 # Arcade — Documentation des modules
 
+![](assets/arcade.png)
+
 ## Collaboration
 
 Ce projet a été réalisé en collaboration entre notre groupe les groupes **HumanCentipede** et **gucci gang** pour le core du projet.
